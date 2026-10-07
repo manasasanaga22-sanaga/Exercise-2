@@ -1,0 +1,20 @@
+) Display Text using String Literals
+AIM
+To write a React program to display text using string (template) literals.
+PROGRAM (App.jsx)
+function App() {
+ const name = "Ravi";
+ const college = "KSRMCE";
+ return <h1>{`Hello ${name}, welcome to ${college}!`}</h1>;
+}
+export default App;
+OUTPUT
+● ● ● localhost:5173
+Hello Ravi, welcome to KSRMCE!
+Output in browser
+KEY POINTS
+• String literals use backticks ( ` ` ), not quotes.
+• ${variable} → puts the variable's value inside the text.
+• In JSX, wrap it in { } so React treats it as JavaScript.
+RESULT
+All five React programs were written and executed successfully, and the outputs were verified in the
